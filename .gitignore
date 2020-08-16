@@ -1,4 +1,4 @@
 jupyter.log
-
+logs/
 .ipynb_checkpoints/
 *.h5
