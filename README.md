@@ -3,7 +3,7 @@ Repo for various things.
 
 ## Deep Learning for Satellite Image Classification
 
-This is a Manning Live Project that uses Semantic Segmentation to detect the outlines of surface water in satellite images. It covers Geo related topics (SRS, data collection) to deep learning combining U-Net (biomedical image segmentation convolution network) with ResNet.  Once trained (with limited data set), the model could detect surface water outline with 80-90% accuracy.  
+This is a Manning Live Project that uses Semantic Segmentation to detect the outlines of surface water in satellite images. It covers Geo related topics (SRS, data collection) to deep learning combining U-Net (biomedical image segmentation convolution network) with ResNet.  Once trained (with limited data set), the model could detect surface water outline with 80-90% accuracy. (Tensorflow/Keras)
 
 ## Killara
 
