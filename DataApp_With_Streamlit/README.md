@@ -8,7 +8,15 @@ Streamlit is not yet another charting software.  Rather, it is an easy to use li
 
 To try out Streamlit, I wrote a Streamlit app that displays t-SNE results using different perplexity.  This is a simple and common demo that takes 10000 random samples from MNIST data, then run t_SNE on it to visualize different clusters of handwritten digits in 2D space.
 
-Streamlit is not a data exploration tool. Rather, Streamlit is a curated data presentation tool.  So the t-SNE data is pre-generated (see generate_tsne.py), and the DataApp merely selects which dataset to display depending on the slider input.
+One thing to note is that Streamlit is not a data exploration tool. Rather, Streamlit is a curated data presentation tool. So in this example, the t-SNE data is pre-generated (generate_tsne.py), and the DataApp merely selects which dataset to display depending on the slider input.
+
+To run, 
+
+`streamlit run streamlit_tsne.py`
+
+and you'll see a screen like below.
+
+---
 
 ![](streamlit_tsne_screenshot.png)
 
