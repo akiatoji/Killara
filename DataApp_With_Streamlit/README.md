@@ -2,14 +2,13 @@
 
 [Streamlit](https://www.streamlit.io/) is an open source framework for building a Data Visualization webapp in Python.   
 
-Streamlit is not yet another charting software.  Rather, it is an easy to use library for converting your exisitng Python code to interactive web page by adding layouts and widgets around the charts you plot with the library of choice.
-
+Streamlit is not yet another charting software.  Rather, it is an easy to use library for building (or converting your exisitng Python code) an interactive web page by adding layouts and widgets around the charts you plot.  The charting can be done with anything from matplotlib to plotly to seaborn.  
 
 ## t-SNE visualization demo
 
-I wrote a Streamlit app that displays t-SNE results using different perplexity.  This is a very common simple demo that takes random 10000 samples from MNIST data, then run t_SNE on it to visualize different clusters of handwritten digits in 2D space.
+To try out Streamlit, I wrote a Streamlit app that displays t-SNE results using different perplexity.  This is a simple and common demo that takes 10000 random samples from MNIST data, then run t_SNE on it to visualize different clusters of handwritten digits in 2D space.
 
-Streamlit is not a data exploration tool. Rather, Streamlit is a curated data presentation tool.  So the t-SNE data is pre-generated (see generate_tsne.py), and the DataApp merely selects which data set to display dpepending on the slider input.
+Streamlit is not a data exploration tool. Rather, Streamlit is a curated data presentation tool.  So the t-SNE data is pre-generated (see generate_tsne.py), and the DataApp merely selects which dataset to display depending on the slider input.
 
 ![](streamlit_tsne_screenshot.png)
 
