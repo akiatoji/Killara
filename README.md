@@ -9,6 +9,18 @@ It covers Geo related topics (SRS, data collection) to deep learning combining U
 
 (Tensorflow/Keras)
 
+## 3D Medical Image Analysis with PyTorch
+
+Manning Live Project that uses PyTorch to emulate medical image analysis. 
+
+(PyTorch)
+
+## DataApp with Streamlit
+
+Streamlit is a pretty good tool if you want to provide interactive web dashboard.  For non-technical audiences, it's heck of a lot better than Jupyter Notebook, and it's a whole lot easier (for us devs) than using tools like Tableau.   This sample project shows how to interactively visualize t-SNE based on perplexity.  Spoiler alert, it just displays pre-computed data, not calculate on the fly.
+
+(Streamlit)
+
 ## Machine Learning Mastery Code Bits
 
 Code written while studying Jason Brownlee's excellent Machine Learning Mastery materials.
