@@ -1,3 +1,5 @@
 small/
 small_data.zip
 solutions/
+venv/
+nohup.out
